@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: aqua;
+    margin: 0%;
+    padding: 0%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .title {
+        padding: 0%;
+        margin: 0%;
+    }
+}
+.mainContents {
+    height: 85vh;
+}

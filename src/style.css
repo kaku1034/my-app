@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: aqua;
+  margin: 0%;
+  padding: 0%;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .title {
+  padding: 0%;
+  margin: 0%;
+}
+
+.mainContents {
+  height: 85vh;
+}
+/*# sourceMappingURL=style.css.map */
