@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const HomeContent = (props) => {
+export const PortfolioContent = (props) => {
     return (
-        <div className="home">
+        <div className="content-inner">
             <h1>
                 作品集です
             </h1>

@@ -4,11 +4,11 @@ html, body {
   padding: 0px;
 }
 
-header {
+html header, body header {
   background-color: aqua;
   margin: 0%;
   padding: 0%;
-  height: 15vh;
+  height: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,12 +20,80 @@ header {
           align-items: center;
 }
 
-header .title {
+html header .title, body header .title {
   padding: 0%;
   margin: 0%;
 }
 
-.mainContents {
-  height: 85vh;
+html .all-container, body .all-container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: auto;
+}
+
+html .all-container .tab-container, body .all-container .tab-container {
+  background-color: #c0fffc;
+  height: 10%;
+}
+
+html .all-container .tab-container ul, body .all-container .tab-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0%;
+  background-color: rgba(0, 204, 255, 0.623);
+}
+
+html .all-container .tab-container ul li, body .all-container .tab-container ul li {
+  background-color: rgba(0, 81, 255, 0.699);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  width: 20%;
+  height: 100%;
+  margin: 0 10px;
+}
+
+html .all-container .tab-container ul li a, body .all-container .tab-container ul li a {
+  font-family: 'Shippori Mincho', serif;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  line-height: 200%;
+  font-size: 30px;
+}
+
+html .all-container .content-container, body .all-container .content-container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px 0;
+}
+
+html .all-container .content-container .content-inner, body .all-container .content-container .content-inner {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+html .all-container .content-container .content-inner h1, body .all-container .content-container .content-inner h1 {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

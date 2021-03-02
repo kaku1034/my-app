@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const HomeContent = (props) => {
+export const ContactContent = (props) => {
     return (
-        <div className="home">
+        <div className="content-inner">
             <h1>
                 連絡先です
             </h1>

@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const HomeContent = (props) => {
+export const IntroductionContent = (props) => {
     return (
-        <div className="home">
+        <div className="content-inner">
             <h1>
                 自己紹介です
             </h1>
